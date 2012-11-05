@@ -67,7 +67,7 @@ void init_timer(){
 	 *          2: OCIE0B = 0  Disable timer compare interrupt B
 	 *          1: OCIE0A = 1  Enable timer compare interrupt A
 	 *          0: TOIE0  = 0  Disable overflow interrupt
-     *
+     */
 	TIMSK0 = _BV(OCIE0A);
 
 	// Optional: Initialize timer to 0
